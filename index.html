@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صوت اليوم | Sawt Al-Yawm - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-newspaper"></i>
+                صوت <span>اليوم</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="news.html"><i class="fas fa-newspaper"></i> الأخبار</a></li>
+                <li><a href="sports.html"><i class="fas fa-futbol"></i> الرياضة</a></li>
+                <li><a href="economy.html"><i class="fas fa-chart-line"></i> الاقتصاد</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- شريط الأخبار العاجلة -->
+    <div class="breaking-news">
+        <div class="breaking-news-content">
+            <span class="breaking-label">
+                <i class="fas fa-bolt"></i> خبر عاجل
+            </span>
+            <span class="breaking-text" id="breaking-text">� زلزال يضرب سلسلة جبال الأطلس بقوة 5.5 درجة على مقياس ريختر</span>
+        </div>
+    </div>
+
+    <!-- الهيرو سكشن - الأخبار المميزة -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-main">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop" alt="خبر مميز">
+                <div class="hero-main-overlay">
+                    <span class="hero-main-category"><i class="fas fa-star"></i> رئيسي</span>
+                    <h2>إطلاق مشروع وطني ضخم لتطوير البنية التحتية في جميع أنحاء المملكة</h2>
+                    <p>يعمل مشروع "مستقبل واعد" على تطوير الطرق والجسور والمرافق العامة لرفع مستوى الخدمات المقدمة للمواطنين، ويهدف إلى خلق آلاف فرص العمل الجديدة خلال السنوات القادمة</p>
+                </div>
+            </div>
+            <div class="hero-side">
+                <div class="hero-side-item">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=300&fit=crop" alt="صحة">
+                    <div class="hero-side-overlay">
+                        <h3><i class="fas fa-hospital"></i> الوحدة الصحية المحلية تحتفل بقدوم 50 طفلاً جديداً هذا الشهر</h3>
+                    </div>
+                </div>
+                <div class="hero-side-item">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop" alt="تعليم">
+                    <div class="hero-side-overlay">
+                        <h3><i class="fas fa-graduation-cap"></i> مدرسة الفكر التطبيقي تحصد المركز الأول في مسابقة العلوم العربية</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم آخر الأخبار -->
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">آخر الأخبار</h2>
+        </div>
+        <div class="news-grid">
+            <!-- بطاقة خبر 1 -->
+            <div class="news-card">
+                <div class="news-card-image">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=300&fit=crop" alt="تعليم">
+                </div>
+                <div class="news-card-content">
+                    <div class="news-card-meta">
+                        <span class="news-card-category"><i class="fas fa-book"></i> تعليم</span>
+                        <span class="news-card-time"><i class="far fa-clock"></i> منذ يوم واحد</span>
+                    </div>
+                    <h3 class="news-card-title">وزارة التربية تعلن جدول الامتحانات النهائية للسنة الدراسية الحالية</h3>
+                    <p class="news-card-desc">أصدرت وزارة التربية الوطنية الجدول الزمني للامتحانات النهائية، والذي سيبدأ في 15 يونيو المقبل</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-author">
+                            <div class="author-avatar">أح</div>
+                            <span>أحمد محمد</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- بطاقة خبر 2 -->
+            <div class="news-card sports">
+                <div class="news-card-image">
+                    <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400&h=300&fit=crop" alt="رياضة">
+                </div>
+                <div class="news-card-content">
+                    <div class="news-card-meta">
+                        <span class="news-card-category"><i class="fas fa-futbol"></i> رياضة</span>
+                        <span class="news-card-time"><i class="far fa-clock"></i> منذ 3 ساعات</span>
+                    </div>
+                    <h3 class="news-card-title">نادي النصر يحقق الفوز على منافسه في الدوري المحلي بنتيجة 2-0</h3>
+                    <p class="news-card-desc">فز فريق النصر على ضيفه في مباراة مثيرة شهدت حضور غفير من المشجعين في الملعب الوطني</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-author">
+                            <div class="author-avatar">مخ</div>
+                            <span>محمد الخالد</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- بطاقة خبر 3 -->
+            <div class="news-card economy">
+                <div class="news-card-image">
+                    <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=300&fit=crop" alt="اقتصاد">
+                </div>
+                <div class="news-card-content">
+                    <div class="news-card-meta">
+                        <span class="news-card-category"><i class="fas fa-chart-line"></i> اقتصاد</span>
+                        <span class="news-card-time"><i class="far fa-clock"></i> منذ 5 ساعات</span>
+                    </div>
+                    <h3 class="news-card-title">تقرير اقتصادي يشير إلى تحسن في مؤشرات النمو المحلي بنسبة 2.5%</h3>
+                    <p class="news-card-desc">أظهرت البيانات الجديدة تحسناً ملحوظاً في مؤشرات النمو الاقتصادي في الربع الأول من السنة الحالية</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-author">
+                            <div class="author-avatar">فص</div>
+                            <span>فاطمة السعيد</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- بطاقة خبر 4 -->
+            <div class="news-card">
+                <div class="news-card-image">
+                    <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&h=300&fit=crop" alt="عالمي">
+                </div>
+                <div class="news-card-content">
+                    <div class="news-card-meta">
+                        <span class="news-card-category"><i class="fas fa-globe"></i> عالمي</span>
+                        <span class="news-card-time"><i class="far fa-clock"></i> أمس</span>
+                    </div>
+                    <h3 class="news-card-title">قمة دولية تُعقد في العاصمة لمناقشة القضايا البيئية والتغير المناخي</h3>
+                    <p class="news-card-desc">يشهد اليوم انطلاق أعمال القمة البيئية الدولية بحضور وفود من أكثر من 50 دولة عربية وأجنبية</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-author">
+                            <div class="author-avatar">يح</div>
+                            <span>يوسف الحارثي</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- بطاقة خبر 5 -->
+            <div class="news-card sports">
+                <div class="news-card-image">
+                    <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop" alt="كرة سلة">
+                </div>
+                <div class="news-card-content">
+                    <div class="news-card-meta">
+                        <span class="news-card-category"><i class="fas fa-basketball-ball"></i> كرة سلة</span>
+                        <span class="news-card-time"><i class="far fa-clock"></i> منذ يومين</span>
+                    </div>
+                    <h3 class="news-card-title">منتخب كرة السلة يُحصد الميدالية الفضية في البطولة العربية الكبرى</h3>
+                    <p class="news-card-desc">قدم منتخبنا أداءً متميزاً في النهائي لكن هزم في مباراة مثيرة من منتخب الأردن الصاعدة</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-author">
+                            <div class="author-avatar">مج</div>
+                            <span>ماجد الجاسم</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- بطاقة خبر 6 -->
+            <div class="news-card economy">
+                <div class="news-card-image">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop" alt="بنوك">
+                </div>
+                <div class="news-card-content">
+                    <div class="news-card-meta">
+                        <span class="news-card-category"><i class="fas fa-university"></i> بنوك</span>
+                        <span class="news-card-time"><i class="far fa-clock"></i> منذ 3 أيام</span>
+                    </div>
+                    <h3 class="news-card-title">البنك المركزي يُعلن إصدار فئة نقدية جديدة بحماية أمنية متطورة</h3>
+                    <p class="news-card-desc">يضم الإصدار الجديد تقنيات حديثة في مجال الحماية من التزوير وميزات تصميمية فريدة جداً</p>
+                    <div class="news-card-footer">
+                        <div class="news-card-author">
+                            <div class="author-avatar">نز</div>
+                            <span>نورة الزهراني</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-newspaper"></i> عن صوت اليوم</h3>
+                    <p>صوت اليوم هي بوابة إخبارية شاملة تُقدم لكم آخر الأخبار المحلية والعالمية على مدار الساعة، مع تغطية متكاملة لجميع المجالات.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-list"></i> التصنيفات</h3>
+                    <a href="news.html"><i class="fas fa-newspaper"></i> الأخبار العامة</a>
+                    <a href="sports.html"><i class="fas fa-futbol"></i> الرياضة</a>
+                    <a href="economy.html"><i class="fas fa-chart-line"></i> الاقتصاد</a>
+                    <a href="#"><i class="fas fa-palette"></i> ثقافة وفن</a>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-link"></i> روابط سريعة</h3>
+                    <a href="index.html"><i class="fas fa-home"></i> الرئيسية</a>
+                    <a href="contact.html"><i class="fas fa-envelope"></i> تواصل معنا</a>
+                    <a href="#"><i class="fas fa-shield-alt"></i> سياسة الخصوصية</a>
+                    <a href="#"><i class="fas fa-file-contract"></i> الشروط والأحكام</a>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-map-marker-alt"></i> تواصل معنا</h3>
+                    <a href="#"><i class="fas fa-map-pin"></i> العاصمة، المملكة العربية السعودية</a>
+                    <a href="#"><i class="fas fa-phone"></i> +966 11 234 5678</a>
+                    <a href="#"><i class="fas fa-envelope"></i> info@sawtalyom.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><i class="far fa-copyright"></i> 2026 صوت اليوم - جميع الحقوق محفوظة</p>
+                <p class="developer"><i class="fas fa-heart"></i> تصميم وتطوير: <strong>محمود ابو خبيزة</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
